@@ -2,7 +2,7 @@ import torch
 import pytorch_lightning as pl
 from torch.utils.data import DataLoader, TensorDataset
 
-from segmentation.lit_Unet3D import LitUNet3D
+from lit_Unet3D import LitUNet3D
 
 
 def train_model(train_data, val_data, in_channels, out_channels, learning_rate=1e-3, batch_size=2, max_epochs=10):

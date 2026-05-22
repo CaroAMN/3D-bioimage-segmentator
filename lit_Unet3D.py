@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import pytorch_lightning as pl
 # import the 3d unet model from 3dunet.py
-from segmentation.models.Unet3D import UNet3D  
+from models.Unet3D import UNet3D  
 
 
 class LitUNet3D(pl.LightningModule):
